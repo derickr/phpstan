@@ -2111,6 +2111,11 @@ parameters:
 			path: repo/src/PrestaShopBundle/Translation/TranslatorComponent.php
 
 		-
+			message: "#^PHPDoc tag @var with type array is not subtype of native type array\\{\\}\\.$#"
+			count: 1
+			path: repo/src/PrestaShopBundle/Translation/View/TreeBuilder.php
+
+		-
 			message: "#^Call to function is_array\\(\\) with array will always evaluate to true\\.$#"
 			count: 1
 			path: repo/src/PrestaShopBundle/Twig/HookExtension.php
